@@ -32,10 +32,8 @@ void loop() {
     previousMillis = currentMillis;
 
     for (int i = 3; i <= 7; i++) {
-      digitalWrite(i, LOW);//set all led low
+      digitalWrite(i, (i == current_led+2) ? HIGH : LOW);//set only current led high
     }
-
-    digitalWrite(current_led + 2, HIGH);//set current led high
 
     current_led++;
     if (current_led > 5) current_led = 1;//if reached last led then go to 1st led again
