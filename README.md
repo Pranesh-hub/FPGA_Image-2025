@@ -1,6 +1,6 @@
 # Image Processing in FPGA
 
-This is the official repository for the **Electroins Club Summer Project** — *Image Processing in FPGA*.
+This is the official repository for the **Electronicss Club Summer Project** — *Image Processing in FPGA*.
 
 ## Mentors
 - Aritra Kolay  
